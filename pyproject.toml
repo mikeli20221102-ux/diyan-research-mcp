@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "diyan-research-mcp"
+version = "0.1.0"
+description = "面向企业投研与产业研究团队的只读研究 MCP，每条结论附来源、数据截至日与证伪条件。"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [{ name = "深圳瞳桦文化传媒有限公司" }]
+keywords = ["mcp", "research", "enterprise", "evidence", "provenance"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "mcp>=1.12,<2",
+    "httpx>=0.27,<1",
+]
+
+[project.urls]
+Homepage = "https://github.com/mikeli20221102-ux/diyan-research-mcp"
+Source = "https://github.com/mikeli20221102-ux/diyan-research-mcp"
+
+[project.scripts]
+diyan-research-mcp = "diyan_research_mcp.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/diyan_research_mcp"]

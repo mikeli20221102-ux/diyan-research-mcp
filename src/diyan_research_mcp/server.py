@@ -145,5 +145,9 @@ def _transport() -> str:
     return transport
 
 
-if __name__ == "__main__":
+def main() -> None:
     mcp.run(transport=_transport())
+
+
+if __name__ == "__main__":
+    main()
