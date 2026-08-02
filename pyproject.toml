@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "diyan-research-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "面向企业投研与产业研究团队的只读研究 MCP，每条结论附来源、数据截至日与证伪条件。"
 readme = "README.md"
 requires-python = ">=3.11"

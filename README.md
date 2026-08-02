@@ -1,5 +1,7 @@
 # diyan-research-mcp · 企业研究证据链
 
+<!-- mcp-name: io.github.mikeli20221102-ux/diyan-research-mcp -->
+
 面向企业投研与产业研究团队的只读研究 MCP，提供研究框架、冻结快照与历史因子摘要，每条结论附来源、数据截至日与证伪条件，不输出交易建议。
 
 ## 这个仓库里没有数据

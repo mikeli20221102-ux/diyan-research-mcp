@@ -6,6 +6,8 @@ venv/
 *.egg-info/
 dist/
 build/
+mcp-publisher.exe
+mcp-publisher.tar.gz
 .pytest_cache/
 .mypy_cache/
 .DS_Store

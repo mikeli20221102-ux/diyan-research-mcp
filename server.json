@@ -1,0 +1,37 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mikeli20221102-ux/diyan-research-mcp",
+  "title": "Enterprise Research Evidence Chain",
+  "description": "Read-only research MCP for enterprise investment and industry research teams. Serves frameworks, frozen snapshots and factor summaries with source, as-of date and falsification conditions. Never produces trading advice.",
+  "repository": {
+    "url": "https://github.com/mikeli20221102-ux/diyan-research-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "diyan-research-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "DIYAN_API_KEY",
+          "description": "Tenant credential issued by Diyan. Fill this on the MCP detail page.",
+          "isRequired": true,
+          "isSecret": true,
+          "format": "string"
+        },
+        {
+          "name": "DIYAN_TRANSPORT",
+          "description": "stdio, sse, or streamable-http. Defaults to sse in hosted environments; use stdio for local clients.",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}

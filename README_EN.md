@@ -1,5 +1,7 @@
 # diyan-research-mcp · Enterprise Research Evidence Chain
 
+<!-- mcp-name: io.github.mikeli20221102-ux/diyan-research-mcp -->
+
 A read-only research MCP for enterprise investment and industry research teams. It serves research frameworks, frozen snapshots and historical factor summaries. Every result carries its source, its as-of date and its falsification conditions. It never produces trading advice.
 
 ## This repository contains no data
