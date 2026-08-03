@@ -9,7 +9,7 @@
 | Official MCP Registry | active | https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.mikeli20221102-ux/diyan-research-mcp |
 | punkpeye/awesome-mcp-servers | PR 开着 | https://github.com/punkpeye/awesome-mcp-servers/pull/11409 |
 | docker/mcp-registry | PR 开着 | https://github.com/docker/mcp-registry/pull/4607 |
-| appcypher/awesome-mcp-servers | 分支已推，需你点开 PR | https://github.com/appcypher/awesome-mcp-servers/compare/main...mikeli20221102-ux:appcypher-awesome-mcp-servers:add-diyan-research-mcp |
+| appcypher/awesome-mcp-servers | **作废**（2024-08-01 已归档，禁止开 PR） | 不用再点对比页 |
 
 ## 等同步，不用交
 
